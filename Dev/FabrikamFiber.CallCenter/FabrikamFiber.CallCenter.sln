@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Web", "FabrikamFiber.Web\FabrikamFiber.Web.csproj", "{456D6BF0-21B0-4995-9D77-76FA13AD95DA}"
 EndProject
@@ -12,13 +12,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Extranet.Web.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.DAL", "FabrikamFiber.DAL\FabrikamFiber.DAL.csproj", "{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Web.UITests", "FabrikamFiber.Web.UITests\FabrikamFiber.Web.UITests.csproj", "{5174F6A7-3D77-4314-B5F2-0B4EAA031F0C}"
-EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
+		SccNumberOfProjects = 6
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://vsalm:8080/tfs/fabrikamfibercollection
+		SccTeamFoundationServer = https://hoysalag.visualstudio.com/defaultcollection
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = FabrikamFiber.Web\\FabrikamFiber.Web.csproj
 		SccProjectName1 = FabrikamFiber.Web
@@ -35,9 +33,6 @@ Global
 		SccProjectUniqueName5 = FabrikamFiber.DAL\\FabrikamFiber.DAL.csproj
 		SccProjectName5 = FabrikamFiber.DAL
 		SccLocalPath5 = FabrikamFiber.DAL
-		SccProjectUniqueName6 = FabrikamFiber.Web.UITests\\FabrikamFiber.Web.UITests.csproj
-		SccProjectName6 = FabrikamFiber.Web.UITests
-		SccLocalPath6 = FabrikamFiber.Web.UITests
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,10 +59,6 @@ Global
 		{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5174F6A7-3D77-4314-B5F2-0B4EAA031F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5174F6A7-3D77-4314-B5F2-0B4EAA031F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5174F6A7-3D77-4314-B5F2-0B4EAA031F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5174F6A7-3D77-4314-B5F2-0B4EAA031F0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
