@@ -13,7 +13,7 @@ namespace FabrikamFiber.DAL.Data
         // 
         // System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<FabrikamFiber.DAL.Models.FabrikamFiberWebContext>());
         public FabrikamFiberWebContext()
-            : base("FabrikamFiber-Express")
+            : base("FabrikamFiberExpress")
         {
         }
 
